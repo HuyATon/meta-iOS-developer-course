@@ -8,7 +8,7 @@
 import Foundation
 
 
-enum Ingredient: String {
+enum Ingredient: String, Equatable {
     
     case spinach = "Spinach"
     case broccoli = "Broccoli"

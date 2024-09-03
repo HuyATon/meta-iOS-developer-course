@@ -16,5 +16,5 @@ enum MenuCategory: String, CaseIterable {
     
     case drinks
     
-    case desert
+    case dessert
 }

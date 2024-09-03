@@ -9,7 +9,7 @@ import SwiftUI
 
 struct MenuItemsView: View {
     
-    @EnvironmentObject var vm: MenuViewViewModel
+    @ObservedObject var vm: MenuViewViewModel
     
     @State var showConfig = false
     
@@ -70,7 +70,5 @@ struct MenuItemsView: View {
 }
 
 #Preview {
-    MenuItemsView()
-        .environmentObject(MenuViewViewModel())
-        .fontDesign(.monospaced)
+    MenuItemsView(vm: MenuViewViewModel())
 }

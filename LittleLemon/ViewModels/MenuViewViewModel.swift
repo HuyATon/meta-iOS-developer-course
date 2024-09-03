@@ -9,34 +9,34 @@ import Foundation
 
 let mockMenuItems: [MenuItem] = [
     // Food MenuItems
-    MenuItem(title: "Spaghetti Bolognese", category: .food, ingredients: [.pasta, .tomatoSauce], priceDouble: 12.99, orders: 15, priceInt: 1299),
-    MenuItem(title: "Chicken Caesar Salad", category: .food, ingredients: [.spinach], priceDouble: 9.49, orders: 22, priceInt: 949),
-    MenuItem(title: "Vegetable Stir Fry", category: .food,  ingredients: [.broccoli, .carrot], priceDouble: 10.25, orders: 18, priceInt: 1025),
-    MenuItem(title: "Margherita Pizza", category: .food,  ingredients: [.tomatoSauce], priceDouble: 14.00, orders: 30, priceInt: 1400),
-    MenuItem(title: "Beef Tacos", category: .food, ingredients: [.spinach], priceDouble: 11.75, orders: 25, priceInt: 1175),
-    MenuItem(title: "Grilled Salmon", category: .food,  ingredients: [.broccoli], priceDouble: 18.50, orders: 10, priceInt: 1850),
-    MenuItem(title: "Chicken Alfredo", category: .food,  ingredients: [.pasta, .spinach], priceDouble: 13.99, orders: 12, priceInt: 1399),
-    MenuItem(title: "Veggie Burger", category: .food,  ingredients: [.spinach, .tomatoSauce], priceDouble: 9.99, orders: 17, priceInt: 999),
-    MenuItem(title: "Grilled Cheese Sandwich", category: .food,  ingredients: [.spinach], priceDouble: 7.50, orders: 14, priceInt: 750),
-    MenuItem(title: "BBQ Ribs", category: .food,  ingredients: [.tomatoSauce], priceDouble: 19.99, orders: 9, priceInt: 1999),
-    MenuItem(title: "Shrimp Scampi", category: .food,  ingredients: [.pasta], priceDouble: 16.75, orders: 8, priceInt: 1675),
-    MenuItem(title: "Beef Stroganoff", category: .food, ingredients: [.pasta], priceDouble: 14.99, orders: 13, priceInt: 1499),
-    
-    // Drink MenuItems
-    MenuItem(title: "Coca-Cola", category: .drinks,  ingredients: [], priceDouble: 2.99, orders: 40, priceInt: 299),
-    MenuItem(title: "Orange Juice", category: .drinks,  ingredients: [], priceDouble: 3.50, orders: 28, priceInt: 350),
-    MenuItem(title: "Lemonade", category: .drinks, ingredients: [], priceDouble: 3.00, orders: 25, priceInt: 300),
-    MenuItem(title: "Iced Tea", category: .drinks,  ingredients: [], priceDouble: 2.75, orders: 30, priceInt: 275),
-    MenuItem(title: "Water", category: .drinks,  ingredients: [], priceDouble: 1.50, orders: 50, priceInt: 150),
-    MenuItem(title: "Coffee", category: .drinks,  ingredients: [], priceDouble: 2.00, orders: 35, priceInt: 200),
-    MenuItem(title: "Latte", category: .drinks,  ingredients: [], priceDouble: 4.25, orders: 22, priceInt: 425),
-    MenuItem(title: "Hot Chocolate", category: .drinks,  ingredients: [], priceDouble: 3.75, orders: 18, priceInt: 375),
-    
+    MenuItem(title: "Food 4", category: .food, ingredients: [.tomatoSauce, .carrot, .pasta], priceDouble: 18.0, orders: 10, priceInt: 18),
+    MenuItem(title: "Food 5", category: .food, ingredients: [.tomatoSauce], priceDouble: 10.0, orders: 10, priceInt: 10),
+    MenuItem(title: "Food 6", category: .food, ingredients: [.tomatoSauce], priceDouble: 90.0, orders: 10, priceInt: 90),
+    MenuItem(title: "Food 7", category: .food, ingredients: [.tomatoSauce, .spinach, .carrot], priceDouble: 20.0, orders: 10, priceInt: 20),
+    MenuItem(title: "Food 1", category: .food, ingredients: [.tomatoSauce], priceDouble: 10.0, orders: 10, priceInt: 10),
+    MenuItem(title: "Food 2", category: .food, ingredients: [.tomatoSauce, .pasta], priceDouble: 15.0, orders: 15, priceInt: 15),
+    MenuItem(title: "Food 3", category: .food, ingredients: [.spinach, .broccoli], priceDouble: 25.0, orders: 20, priceInt: 25),
+    MenuItem(title: "Food 8", category: .food, ingredients: [.tomatoSauce, .broccoli], priceDouble: 25.50, orders: 10, priceInt: 26),
+    MenuItem(title: "Food 9", category: .food, ingredients: [.tomatoSauce], priceDouble: 10.0, orders: 10, priceInt: 10),
+    MenuItem(title: "Food 10", category: .food, ingredients: [.spinach], priceDouble: 35.0, orders: 10, priceInt: 35),
+    MenuItem(title: "Food 11", category: .food, ingredients: [.pasta], priceDouble: 45.0, orders: 10, priceInt: 45),
+    MenuItem(title: "Food 12", category: .food, ingredients: [.carrot, .spinach], priceDouble: 75.0, orders: 10, priceInt: 75),
+
+    // drinks MenuItems
+    MenuItem(title: "Drinks 4", category: .drinks, ingredients: [], priceDouble: 18.0, orders: 0, priceInt: 18),
+    MenuItem(title: "Drinks 5", category: .drinks, ingredients: [], priceDouble: 10.0, orders: 10, priceInt: 10),
+    MenuItem(title: "Drinks 1", category: .drinks, ingredients: [], priceDouble: 10.0, orders: 0, priceInt: 10),
+    MenuItem(title: "Drinks 2", category: .drinks, ingredients: [], priceDouble: 15.0, orders: 15, priceInt: 15),
+    MenuItem(title: "Drinks 3", category: .drinks, ingredients: [], priceDouble: 10.0, orders: 20, priceInt: 10),
+    MenuItem(title: "Drinks 6", category: .drinks, ingredients: [], priceDouble: 10.0, orders: 10, priceInt: 10),
+    MenuItem(title: "Drinks 7", category: .drinks, ingredients: [], priceDouble: 20.0, orders: 10, priceInt: 20),
+    MenuItem(title: "Drinks 8", category: .drinks, ingredients: [], priceDouble: 25.0, orders: 10, priceInt: 25),
+
     // Dessert MenuItems
-    MenuItem(title: "Chocolate Cake", category: .desert, ingredients: [], priceDouble: 6.50, orders: 15, priceInt: 650),
-    MenuItem(title: "Cheesecake", category: .desert,ingredients: [], priceDouble: 7.00, orders: 12, priceInt: 700),
-    MenuItem(title: "Apple Pie", category: .desert, ingredients: [], priceDouble: 5.75, orders: 10, priceInt: 575),
-    MenuItem(title: "Ice Cream Sundae", category: .desert,  ingredients: [], priceDouble: 4.99, orders: 20, priceInt: 499)
+    MenuItem(title: "Dessert 2", category: .dessert, ingredients: [], priceDouble: 15.0, orders: 15, priceInt: 15),
+    MenuItem(title: "Dessert 3", category: .dessert, ingredients: [], priceDouble: 10.0, orders: 20, priceInt: 10),
+    MenuItem(title: "Dessert 1", category: .dessert, ingredients: [], priceDouble: 10.0, orders: 0, priceInt: 10),
+    MenuItem(title: "Dessert 4", category: .dessert, ingredients: [], priceDouble: 18.0, orders: 0, priceInt: 18)
 ]
 
 
@@ -62,8 +62,8 @@ class MenuViewViewModel: ObservableObject {
             itemList = self.foodMenuItems
         case .drinks:
             itemList = self.drinksMenuItems
-        case .desert:
-            itemList = self.desertMenuItems
+        case .dessert:
+            itemList = self.dessertMenuItems
         }
         
         switch selectedOrder {
@@ -88,8 +88,8 @@ class MenuViewViewModel: ObservableObject {
         items.filter { $0.category == .drinks}
     }
     
-    var desertMenuItems: [MenuItem] {
-        items.filter { $0.category == .desert}
+    var dessertMenuItems: [MenuItem] {
+        items.filter { $0.category == .dessert}
     }
     
 

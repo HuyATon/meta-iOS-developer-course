@@ -37,6 +37,6 @@ struct MenuItemsDetailsView: View {
 #Preview {
     
     NavigationStack {
-        MenuItemsDetailsView(item: MenuItem(title: "Ice Cream Sundae", category: .desert, ingredients: [.broccoli, .carrot, .spinach], priceDouble: 4.99, orders: 20, priceInt: 499))
+        MenuItemsDetailsView(item: MenuItem(title: "Ice Cream Sundae", category: .dessert, ingredients: [.broccoli, .carrot, .spinach], priceDouble: 4.99, orders: 20, priceInt: 499))
     }
 }
